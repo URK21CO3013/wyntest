@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    /* Added */
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* Fixed position */
+    top: 0;
+    /* Align to the top */
+    width: 100%;
+    /* Take full width */
+    z-index: 1000;
+}
+
+.container {
+    padding: 20px;
+}
+
+.navbar-cont{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+nav ul li a:hover {
+    color: #29ff04;
+    text-decoration: none;
+    /* Change color on hover */
+    text-shadow: 0 0 10px #29ff04;
+    /* Add glow effect on hover */
+}
+
+.section1 {
+    background-color: black;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    height: 100vh;
+    width: 100vw;
+    display: grid; /* Added for Grid Layout */
+    place-items: center; /* Center elements within .section1 */
+}
+
+
+.section1-container {
+    justify-content: center;
+    padding: 26px;
+    text-align: center;
+    font-weight: 500;
+    height: 50vh;
+}
+.section1 #t2 {
+    color: rgb(29, 255, 4);
+}
+
+.section1 #t1, .section1 #t2 {
+    font-size: 150px; /* Adjust the value here */
+    font-weight: bolder;
+  }
+  
+.section1 #t3 {
+    font-size: 30px;
+    margin-top: -50px;
+    line-height: -1;
+    display: block;
+    letter-spacing: 20px;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin: 5px;
+}
+
+.section1 .button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+    font-family: "Cutive Mono", monospace;
+}
+
+.section1 .button:hover {
+    background-color: rgb(29, 255, 4);
+    /* Green */
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgba(29, 255, 4, 0.7);
+    /* Glow effect */
+}
+
+/* section2 */
+
+.section2 {
+    background-color: #000000;
+    padding: 50px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.section2 h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Fugaz One", sans-serif;
+
+}
+.section2 h3{
+    text-align: left;
+    font-family: "Major Mono Display", monospace;
+
+}
+
+.section2 p {
+    line-height: 2;
+    margin-bottom: 40px;
+    font-family: "Cutive Mono", monospace;
+    font-style: normal;
+    text-align: left;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    width: 20%;
+    height: 70vh;
+
+}
+
+.service-box {
+    width: 105%;
+    background: linear-gradient(to bottom, #000000, #1c1c1c);
+    /* Black to dark gray gradient */
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    /* 3D effect */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    /* Lift the box on hover */
+}
+
+.service-box .content {
+    display: flex;
+}
+
+.service-box img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    /* Adjust spacing between image and text */
+}
+
+.service-box .text {
+    flex: 1;
+}
+
+.service-box h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* section3 */
+
+.section3 {
+    background-color: #000000;
+    padding: 24px 0;
+    color: white;
+}
+
+.section3 h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: -80px;
+    border-width: 2px;
+    border-color: white;
+}
+
+.section3 .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    /* Change label color */
+    font-family: "Paytone One", sans-serif;
+    font-style: normal;
+    line-height: -1.5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Cutive Mono", monospace;
+
+}
+
+.section3 button {
+
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 7.5px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+    font-family: "Cutive Mono", monospace;
+}
+
+
+
+button:hover {
+    background-color: rgb(29, 255, 4);
+    /* Green */
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgba(29, 255, 4, 0.7);
+    /* Glow effect */
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #474747;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* Set position to relative */
+    margin-bottom: -15px;
+}
+
+.footer-left {
+    text-align: left;
+    margin-left: 30px;
+    line-height: 1.5;
+}
+
+.footer-right {
+    position: absolute;
+    /* Set position to absolute */
+    bottom: 0;
+    /* Align to bottom */
+    right: 0;
+    /* Align to right */
+    margin: 30px;
+}
+
+.footer-right p {
+    margin-bottom: 0;
+}
+
+.footer-right a {
+    margin-left: 10px;
+    line-height: 1.5;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.icons {
+    margin-right: 12px;
+}
