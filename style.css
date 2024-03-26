@@ -182,6 +182,11 @@ nav ul li a:hover {
     transition: transform 0.3s ease;
 }
 
+.service-box-img{
+    height: 200px;
+    width: 200px;
+}
+
 .service-box:hover {
     transform: translateY(-5px);
     /* Lift the box on hover */
@@ -375,16 +380,30 @@ button:hover {
     /* Adjustments for section2 */
     .services-container {
         flex-direction: column;
+        justify-content: center;
     }
 
     .service-box {
-        width: 100%;
+        width: 90vw;
+        padding: 15px;
+        height: fit-content;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .service-box-img{
+        height: 500px;
+        width: 500px;
     }
 
     /* Adjustments for section3 */
     .section3 h1 {
         font-size: 40px;
         margin-left: 0;
+    }
+    .para{
+        text-align: center;
+        justify-content: center;
     }
 }
 
@@ -403,7 +422,19 @@ button:hover {
     }
 
     .service-box {
+        width: 90vw;
+        height: fit-content;
+        text-align: center;
         padding: 15px;
+        justify-content: center;
+    }
+    .para{
+        text-align: center;
+        justify-content: center;
+    }
+    .service-box-img{
+        height: 500px;
+        width: 500px;
     }
 
     .footer {
