@@ -328,10 +328,12 @@ button:hover {
     right: 0;
     /* Align to right */
     margin: 30px;
+    margin-top: 5px;
 }
 
 .footer-right p {
     margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .footer-right a {
@@ -405,7 +407,12 @@ button:hover {
         text-align: center;
         justify-content: center;
     }
+    .footer-right{
+        margin-top:5px;
+        text-align:center;
+    }
 }
+
 
 /* Mobile CSS for devices with small screens */
 @media only screen and (max-width: 375px) {
@@ -450,10 +457,12 @@ button:hover {
 
     .footer-right {
         position: static;
-        margin: 10px 0;
+        margin-top: 5px;
+        text-align:center;
     }
 
     .footer-right p {
         margin-bottom: 10px;
+        margin-top:5px;
     }
 }
