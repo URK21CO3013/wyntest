@@ -318,6 +318,7 @@ button:hover {
     text-align: left;
     margin-left: 30px;
     line-height: 1.5;
+    margin-bottom: 8px;
 }
 
 .footer-right {
@@ -391,7 +392,8 @@ button:hover {
         height: fit-content;
         text-align: center;
         justify-content: center;
-    }
+        margin:5px;
+}
 
     .service-box-img{
         height: 500px;
@@ -409,7 +411,9 @@ button:hover {
     }
     .footer-right{
         margin-top:5px;
-        text-align:center;
+    }
+    .footer-left{
+        margin-bottom: 8px;
     }
 }
 
@@ -434,6 +438,7 @@ button:hover {
         text-align: center;
         padding: 15px;
         justify-content: center;
+        margin:5px;
     }
     .para{
         text-align: center;
@@ -453,6 +458,7 @@ button:hover {
     .footer-left {
         margin-left: 0;
         text-align: center;
+        margin-bottom: 8px;
     }
 
     .footer-right {
