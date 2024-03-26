@@ -7,6 +7,7 @@ body {
     background-color: black;
     color: white;
     /* Added */
+    width: 100vw;
 }
 
 header {
@@ -337,4 +338,88 @@ button:hover {
 
 .icons {
     margin-right: 12px;
+}
+
+/* Responsive CSS for XS devices and mobile devices */
+@media only screen and (max-width: 576px) {
+    /* Adjustments for header */
+    .navbar-cont {
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    nav ul li a {
+        margin: 0;
+    }
+
+    /* Adjustments for section1 */
+    .section1 h1 {
+        font-size: 40px;
+    }
+
+    .section1 #t1, .section1 #t2 {
+        font-size: 80px;
+    }
+
+    .section1 #t3 {
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
+
+    /* Adjustments for section2 */
+    .services-container {
+        flex-direction: column;
+    }
+
+    .service-box {
+        width: 100%;
+    }
+
+    /* Adjustments for section3 */
+    .section3 h1 {
+        font-size: 40px;
+        margin-left: 0;
+    }
+}
+
+/* Mobile CSS for devices with small screens */
+@media only screen and (max-width: 375px) {
+    .section1 h1 {
+        font-size: 30px;
+    }
+
+    .section1 #t1, .section1 #t2 {
+        font-size: 60px;
+    }
+
+    .section1 #t3 {
+        font-size: 16px;
+    }
+
+    .service-box {
+        padding: 15px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .footer-left {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer-right {
+        position: static;
+        margin: 10px 0;
+    }
+
+    .footer-right p {
+        margin-bottom: 10px;
+    }
 }
