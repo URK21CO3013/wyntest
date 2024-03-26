@@ -136,11 +136,14 @@ nav ul li a:hover {
 }
 
 .section2 h1 {
+    color: rgb(255, 255, 255);
     font-size: 50px;
     margin-bottom: 20px;
     font-family: "Fugaz One", sans-serif;
 
+    
 }
+
 .section2 h3{
     text-align: left;
     font-family: "Major Mono Display", monospace;
@@ -375,8 +378,7 @@ button:hover {
     }
 
     .service-box {
-        width: 90%;
-        height: 70%;
+        width: 100%;
     }
 
     /* Adjustments for section3 */
